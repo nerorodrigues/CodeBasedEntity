@@ -29,7 +29,7 @@ namespace CodeBasedEntity
         {
             DbContexto contexto = new DbContexto("Data Source=localhost;Initial Catalog=Teste;Persist Security Info=True;User ID=sa;Password=just@me2014");
             contexto.pessoas.Add(new Pessoa(){
-                Nome = "Ruan"
+                Nome = "Nero"
             });
             contexto.SaveChanges();
         }
